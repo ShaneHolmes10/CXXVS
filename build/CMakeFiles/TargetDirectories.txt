@@ -1,0 +1,12 @@
+/home/shane/CXXVS/CXXVS/build/CMakeFiles/src_lib.dir
+/home/shane/CXXVS/CXXVS/build/CMakeFiles/run_post_build.dir
+/home/shane/CXXVS/CXXVS/build/CMakeFiles/test.dir
+/home/shane/CXXVS/CXXVS/build/CMakeFiles/edit_cache.dir
+/home/shane/CXXVS/CXXVS/build/CMakeFiles/rebuild_cache.dir
+/home/shane/CXXVS/CXXVS/build/libraries/CMakeFiles/test.dir
+/home/shane/CXXVS/CXXVS/build/libraries/CMakeFiles/edit_cache.dir
+/home/shane/CXXVS/CXXVS/build/libraries/CMakeFiles/rebuild_cache.dir
+/home/shane/CXXVS/CXXVS/build/src/CMakeFiles/main.dir
+/home/shane/CXXVS/CXXVS/build/src/CMakeFiles/test.dir
+/home/shane/CXXVS/CXXVS/build/src/CMakeFiles/edit_cache.dir
+/home/shane/CXXVS/CXXVS/build/src/CMakeFiles/rebuild_cache.dir

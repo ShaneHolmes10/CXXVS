@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/shane/CXXVS/CXXVS/build",
+  "command": "/usr/bin/g++  -I/home/shane/CXXVS/CXXVS/src -g -std=gnu++17 -o CMakeFiles/src_lib.dir/src/main.cpp.o -c /home/shane/CXXVS/CXXVS/src/main.cpp",
+  "file": "/home/shane/CXXVS/CXXVS/src/main.cpp"
+},
+{
+  "directory": "/home/shane/CXXVS/CXXVS/build/src",
+  "command": "/usr/bin/g++  -I/home/shane/CXXVS/CXXVS/src -I/home/shane/CXXVS/CXXVS/src/../libraries -g -std=gnu++17 -o CMakeFiles/main.dir/main.cpp.o -c /home/shane/CXXVS/CXXVS/src/main.cpp",
+  "file": "/home/shane/CXXVS/CXXVS/src/main.cpp"
+}
+]
