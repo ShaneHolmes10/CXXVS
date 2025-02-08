@@ -73,71 +73,71 @@ CMakeFiles/src_lib.dir/src/Jerry.cpp.o: CMakeFiles/src_lib.dir/flags.make
 CMakeFiles/src_lib.dir/src/Jerry.cpp.o: ../src/Jerry.cpp
 CMakeFiles/src_lib.dir/src/Jerry.cpp.o: CMakeFiles/src_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src_lib.dir/src/Jerry.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src_lib.dir/src/Jerry.cpp.o -MF CMakeFiles/src_lib.dir/src/Jerry.cpp.o.d -o CMakeFiles/src_lib.dir/src/Jerry.cpp.o -c /home/shane/CXXVS/CXXVS/src/Jerry.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src_lib.dir/src/Jerry.cpp.o -MF CMakeFiles/src_lib.dir/src/Jerry.cpp.o.d -o CMakeFiles/src_lib.dir/src/Jerry.cpp.o -c /home/shane/CXXVS/CXXVS/src/Jerry.cpp
 
 CMakeFiles/src_lib.dir/src/Jerry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src_lib.dir/src/Jerry.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/Jerry.cpp > CMakeFiles/src_lib.dir/src/Jerry.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/Jerry.cpp > CMakeFiles/src_lib.dir/src/Jerry.cpp.i
 
 CMakeFiles/src_lib.dir/src/Jerry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src_lib.dir/src/Jerry.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/Jerry.cpp -o CMakeFiles/src_lib.dir/src/Jerry.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/Jerry.cpp -o CMakeFiles/src_lib.dir/src/Jerry.cpp.s
 
 CMakeFiles/src_lib.dir/src/John.cpp.o: CMakeFiles/src_lib.dir/flags.make
 CMakeFiles/src_lib.dir/src/John.cpp.o: ../src/John.cpp
 CMakeFiles/src_lib.dir/src/John.cpp.o: CMakeFiles/src_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/src_lib.dir/src/John.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src_lib.dir/src/John.cpp.o -MF CMakeFiles/src_lib.dir/src/John.cpp.o.d -o CMakeFiles/src_lib.dir/src/John.cpp.o -c /home/shane/CXXVS/CXXVS/src/John.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src_lib.dir/src/John.cpp.o -MF CMakeFiles/src_lib.dir/src/John.cpp.o.d -o CMakeFiles/src_lib.dir/src/John.cpp.o -c /home/shane/CXXVS/CXXVS/src/John.cpp
 
 CMakeFiles/src_lib.dir/src/John.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src_lib.dir/src/John.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/John.cpp > CMakeFiles/src_lib.dir/src/John.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/John.cpp > CMakeFiles/src_lib.dir/src/John.cpp.i
 
 CMakeFiles/src_lib.dir/src/John.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src_lib.dir/src/John.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/John.cpp -o CMakeFiles/src_lib.dir/src/John.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/John.cpp -o CMakeFiles/src_lib.dir/src/John.cpp.s
 
 CMakeFiles/src_lib.dir/src/Person.cpp.o: CMakeFiles/src_lib.dir/flags.make
 CMakeFiles/src_lib.dir/src/Person.cpp.o: ../src/Person.cpp
 CMakeFiles/src_lib.dir/src/Person.cpp.o: CMakeFiles/src_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/src_lib.dir/src/Person.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src_lib.dir/src/Person.cpp.o -MF CMakeFiles/src_lib.dir/src/Person.cpp.o.d -o CMakeFiles/src_lib.dir/src/Person.cpp.o -c /home/shane/CXXVS/CXXVS/src/Person.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src_lib.dir/src/Person.cpp.o -MF CMakeFiles/src_lib.dir/src/Person.cpp.o.d -o CMakeFiles/src_lib.dir/src/Person.cpp.o -c /home/shane/CXXVS/CXXVS/src/Person.cpp
 
 CMakeFiles/src_lib.dir/src/Person.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src_lib.dir/src/Person.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/Person.cpp > CMakeFiles/src_lib.dir/src/Person.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/Person.cpp > CMakeFiles/src_lib.dir/src/Person.cpp.i
 
 CMakeFiles/src_lib.dir/src/Person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src_lib.dir/src/Person.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/Person.cpp -o CMakeFiles/src_lib.dir/src/Person.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/Person.cpp -o CMakeFiles/src_lib.dir/src/Person.cpp.s
 
 CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.o: CMakeFiles/src_lib.dir/flags.make
 CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.o: ../src/controller/PersonController.cpp
 CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.o: CMakeFiles/src_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.o -MF CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.o.d -o CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.o -c /home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.o -MF CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.o.d -o CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.o -c /home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp
 
 CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp > CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp > CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.i
 
 CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp -o CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp -o CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.s
 
 CMakeFiles/src_lib.dir/src/main.cpp.o: CMakeFiles/src_lib.dir/flags.make
 CMakeFiles/src_lib.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/src_lib.dir/src/main.cpp.o: CMakeFiles/src_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/src_lib.dir/src/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src_lib.dir/src/main.cpp.o -MF CMakeFiles/src_lib.dir/src/main.cpp.o.d -o CMakeFiles/src_lib.dir/src/main.cpp.o -c /home/shane/CXXVS/CXXVS/src/main.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src_lib.dir/src/main.cpp.o -MF CMakeFiles/src_lib.dir/src/main.cpp.o.d -o CMakeFiles/src_lib.dir/src/main.cpp.o -c /home/shane/CXXVS/CXXVS/src/main.cpp
 
 CMakeFiles/src_lib.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src_lib.dir/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/main.cpp > CMakeFiles/src_lib.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/main.cpp > CMakeFiles/src_lib.dir/src/main.cpp.i
 
 CMakeFiles/src_lib.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src_lib.dir/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/main.cpp -o CMakeFiles/src_lib.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/main.cpp -o CMakeFiles/src_lib.dir/src/main.cpp.s
 
 # Object files for target src_lib
 src_lib_OBJECTS = \

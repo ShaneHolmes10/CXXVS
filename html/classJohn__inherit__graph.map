@@ -1,0 +1,4 @@
+<map id="John" name="John">
+<area shape="rect" id="node1" title="This is a John file." alt="" coords="13,80,64,107"/>
+<area shape="rect" id="node2" href="$classPerson.html" title=" " alt="" coords="5,5,72,32"/>
+</map>

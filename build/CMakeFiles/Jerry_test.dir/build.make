@@ -73,15 +73,15 @@ CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.o: CMakeFiles/Jerry_test.dir/flags
 CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.o: ../test/Jerry_test.cpp
 CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.o: CMakeFiles/Jerry_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.o -MF CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.o.d -o CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.o -c /home/shane/CXXVS/CXXVS/test/Jerry_test.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.o -MF CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.o.d -o CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.o -c /home/shane/CXXVS/CXXVS/test/Jerry_test.cpp
 
 CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/test/Jerry_test.cpp > CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/test/Jerry_test.cpp > CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.i
 
 CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/test/Jerry_test.cpp -o CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/test/Jerry_test.cpp -o CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.s
 
 # Object files for target Jerry_test
 Jerry_test_OBJECTS = \

@@ -1,0 +1,33 @@
+@startuml
+class "Person" as C_0012509464965605143713
+class C_0012509464965605143713 {
++lament() : void
++scream() : void
+__
+}
+class "Jerry" as C_0017492559464112226231
+class C_0017492559464112226231 {
++add(double a, double b) : double
++mult(double a, double b) : double
+__
+}
+class "John" as C_0001385103295405444059
+class C_0001385103295405444059 {
++Hollar() : int
++setHollar(int mes) : void
+__
+-message : int
+}
+class "PersonController" as C_0011222784377718144887
+class C_0011222784377718144887 {
++init() : void
+__
+}
+C_0012509464965605143713 <|-- C_0017492559464112226231
+
+C_0012509464965605143713 <|-- C_0001385103295405444059
+
+
+'Generated with clang-uml, version 0.5.5-8-gdaf1b3b
+'LLVM version Ubuntu clang version 14.0.0-1ubuntu1.1
+@enduml

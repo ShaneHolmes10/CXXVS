@@ -73,15 +73,15 @@ CMakeFiles/new_test.dir/test/new_test.cpp.o: CMakeFiles/new_test.dir/flags.make
 CMakeFiles/new_test.dir/test/new_test.cpp.o: ../test/new_test.cpp
 CMakeFiles/new_test.dir/test/new_test.cpp.o: CMakeFiles/new_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/new_test.dir/test/new_test.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/new_test.dir/test/new_test.cpp.o -MF CMakeFiles/new_test.dir/test/new_test.cpp.o.d -o CMakeFiles/new_test.dir/test/new_test.cpp.o -c /home/shane/CXXVS/CXXVS/test/new_test.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/new_test.dir/test/new_test.cpp.o -MF CMakeFiles/new_test.dir/test/new_test.cpp.o.d -o CMakeFiles/new_test.dir/test/new_test.cpp.o -c /home/shane/CXXVS/CXXVS/test/new_test.cpp
 
 CMakeFiles/new_test.dir/test/new_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/new_test.dir/test/new_test.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/test/new_test.cpp > CMakeFiles/new_test.dir/test/new_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/test/new_test.cpp > CMakeFiles/new_test.dir/test/new_test.cpp.i
 
 CMakeFiles/new_test.dir/test/new_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/new_test.dir/test/new_test.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/test/new_test.cpp -o CMakeFiles/new_test.dir/test/new_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/test/new_test.cpp -o CMakeFiles/new_test.dir/test/new_test.cpp.s
 
 # Object files for target new_test
 new_test_OBJECTS = \
