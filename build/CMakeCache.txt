@@ -14,13 +14,94 @@
 # EXTERNAL cache entries
 ########################
 
+//Path to a library.
+ACML_LIBRARIES:FILEPATH=ACML_LIBRARIES-NOTFOUND
+
+//Path to a file.
+ATLAS_F77BLAS:FILEPATH=ATLAS_F77BLAS-NOTFOUND
+
+//Path to a file.
+ATLAS_LAPACK:FILEPATH=ATLAS_LAPACK-NOTFOUND
+
+//Path to a file.
+ATLAS_LIB:FILEPATH=ATLAS_LIB-NOTFOUND
+
+//Path to a file.
+BLAZE_INCLUDE_DIR:PATH=BLAZE_INCLUDE_DIR-NOTFOUND
+
+//Path to a file.
+BLITZ_INCLUDES:PATH=BLITZ_INCLUDES-NOTFOUND
+
+//Path to a library.
+BLITZ_LIBRARIES:FILEPATH=BLITZ_LIBRARIES-NOTFOUND
+
+//also bench Eigen explicit vec without GCC's auto vec
+BTL_BENCH_NOGCCVEC:BOOL=OFF
+
+//Value Computed by CMake
+BTL_BINARY_DIR:STATIC=/home/shane/CXXVS/CXXVS/build/libraries/eigen/bench/btl
+
+//Value Computed by CMake
+BTL_IS_TOP_LEVEL:STATIC=OFF
+
+//Disable SSE/Altivec optimizations when possible
+BTL_NOVEC:BOOL=OFF
+
+//Value Computed by CMake
+BTL_SOURCE_DIR:STATIC=/home/shane/CXXVS/CXXVS/libraries/eigen/bench/btl
+
+//Build benchmark btl_STL
+BUILD_btl_STL:BOOL=OFF
+
+//Build benchmark btl_eigen3_adv
+BUILD_btl_eigen3_adv:BOOL=ON
+
+//Build benchmark btl_eigen3_linear
+BUILD_btl_eigen3_linear:BOOL=ON
+
+//Build benchmark btl_eigen3_matmat
+BUILD_btl_eigen3_matmat:BOOL=ON
+
+//Build benchmark btl_eigen3_novec_adv
+BUILD_btl_eigen3_novec_adv:BOOL=OFF
+
+//Build benchmark btl_eigen3_novec_linear
+BUILD_btl_eigen3_novec_linear:BOOL=OFF
+
+//Build benchmark btl_eigen3_novec_matmat
+BUILD_btl_eigen3_novec_matmat:BOOL=OFF
+
+//Build benchmark btl_eigen3_novec_vecmat
+BUILD_btl_eigen3_novec_vecmat:BOOL=OFF
+
+//Build benchmark btl_eigen3_vecmat
+BUILD_btl_eigen3_vecmat:BOOL=ON
+
+//Build benchmark btl_tiny_eigen3
+BUILD_btl_tiny_eigen3:BOOL=OFF
+
+//Build benchmark btl_tiny_eigen3_novec
+BUILD_btl_tiny_eigen3_novec:BOOL=OFF
+
+//Build benchmark btl_ublas
+BUILD_btl_ublas:BOOL=ON
+
 //The directory containing a CMake configuration file for Boost.
 Boost_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0
 
 //Path to a file.
 Boost_INCLUDE_DIR:PATH=/usr/include
 
+Boost_SYSTEM_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0
+
 Boost_UNIT_TEST_FRAMEWORK_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0
+
+//The directory containing a CMake configuration file for CHOLMOD.
+CHOLMOD_DIR:PATH=CHOLMOD_DIR-NOTFOUND
+
+//The directory relative to CMAKE_INSTALL_PREFIX where Eigen3Config.cmake
+// is installed
+CMAKEPACKAGE_INSTALL_DIR:PATH=share/eigen3/cmake
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -107,8 +188,56 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //No help, variable specified on the command line.
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
+//User executables (bin)
+CMAKE_INSTALL_BINDIR:PATH=bin
+
+//Read-only architecture-independent data (DATAROOTDIR)
+CMAKE_INSTALL_DATADIR:PATH=
+
+//Read-only architecture-independent data root (share)
+CMAKE_INSTALL_DATAROOTDIR:PATH=share
+
+//Documentation root (DATAROOTDIR/doc/PROJECT_NAME)
+CMAKE_INSTALL_DOCDIR:PATH=
+
+//C header files (include)
+CMAKE_INSTALL_INCLUDEDIR:PATH=include
+
+//Info documentation (DATAROOTDIR/info)
+CMAKE_INSTALL_INFODIR:PATH=
+
+//Object code libraries (lib)
+CMAKE_INSTALL_LIBDIR:PATH=lib
+
+//Program executables (libexec)
+CMAKE_INSTALL_LIBEXECDIR:PATH=libexec
+
+//Locale-dependent data (DATAROOTDIR/locale)
+CMAKE_INSTALL_LOCALEDIR:PATH=
+
+//Modifiable single-machine data (var)
+CMAKE_INSTALL_LOCALSTATEDIR:PATH=var
+
+//Man documentation (DATAROOTDIR/man)
+CMAKE_INSTALL_MANDIR:PATH=
+
+//C header files for non-gcc (/usr/include)
+CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
+
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
+
+//Run-time variable data (LOCALSTATEDIR/run)
+CMAKE_INSTALL_RUNSTATEDIR:PATH=
+
+//System admin executables (sbin)
+CMAKE_INSTALL_SBINDIR:PATH=sbin
+
+//Modifiable architecture-independent data (com)
+CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
+
+//Read-only single-machine data (etc)
+CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
@@ -224,6 +353,122 @@ CXXVS_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 CXXVS_SOURCE_DIR:STATIC=/home/shane/CXXVS/CXXVS
+
+//Path to a library.
+EIGEN_BTL_RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.a
+
+//Toggles the building of the Eigen Blas library
+EIGEN_BUILD_BLAS:BOOL=OFF
+
+//Build benchmark suite
+EIGEN_BUILD_BTL:BOOL=OFF
+
+//Enables the creation of EigenConfig.cmake and related files
+EIGEN_BUILD_CMAKE_PACKAGE:BOOL=OFF
+
+//Toggles the building of the Eigen demos
+EIGEN_BUILD_DEMOS:BOOL=OFF
+
+//Enable creation of Eigen documentation
+EIGEN_BUILD_DOC:BOOL=OFF
+
+//Toggles the building of the included Eigen LAPACK library
+EIGEN_BUILD_LAPACK:BOOL=OFF
+
+//Build pkg-config .pc file for Eigen
+EIGEN_BUILD_PKGCONFIG:BOOL=OFF
+
+//Build sparse benchmark suite
+EIGEN_BUILD_SPBENCH:BOOL=OFF
+
+//Enable creation of Eigen tests.
+EIGEN_BUILD_TESTING:BOOL=OFF
+
+//Leaves tests in the all target, needed by ctest for automatic
+// building.
+EIGEN_LEAVE_TEST_IN_ALL_TARGET:BOOL=OFF
+
+//The directory containing a CMake configuration file for Eigen2.
+Eigen2_DIR:PATH=Eigen2_DIR-NOTFOUND
+
+//Value Computed by CMake
+Eigen3_BINARY_DIR:STATIC=/home/shane/CXXVS/CXXVS/build/libraries/eigen
+
+//The directory containing a CMake configuration file for Eigen3.
+Eigen3_DIR:PATH=/usr/share/eigen3/cmake
+
+//Value Computed by CMake
+Eigen3_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Eigen3_SOURCE_DIR:STATIC=/home/shane/CXXVS/CXXVS/libraries/eigen
+
+//Value Computed by CMake
+EigenBlas_BINARY_DIR:STATIC=/home/shane/CXXVS/CXXVS/build/libraries/eigen/blas
+
+//Value Computed by CMake
+EigenBlas_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+EigenBlas_SOURCE_DIR:STATIC=/home/shane/CXXVS/CXXVS/libraries/eigen/blas
+
+//Value Computed by CMake
+EigenDemos_BINARY_DIR:STATIC=/home/shane/CXXVS/CXXVS/build/libraries/eigen/demos
+
+//Value Computed by CMake
+EigenDemos_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+EigenDemos_SOURCE_DIR:STATIC=/home/shane/CXXVS/CXXVS/libraries/eigen/demos
+
+//Path to a file.
+GMM_INCLUDE_DIR:PATH=GMM_INCLUDE_DIR-NOTFOUND
+
+//The directory relative to CMAKE_INSTALL_PREFIX where Eigen header
+// files are installed
+INCLUDE_INSTALL_DIR:PATH=include/eigen3
+
+//The directory containing a CMake configuration file for KLU.
+KLU_DIR:PATH=KLU_DIR-NOTFOUND
+
+//Path to a library.
+MKL_GUIDE:FILEPATH=MKL_GUIDE-NOTFOUND
+
+//Path to a library.
+MKL_LIBRARIES:FILEPATH=MKL_LIBRARIES-NOTFOUND
+
+//Path to a file.
+MTL4_INCLUDE_DIR:PATH=MTL4_INCLUDE_DIR-NOTFOUND
+
+//Path to a file.
+OPENBLAS_LIBRARIES:FILEPATH=OPENBLAS_LIBRARIES-NOTFOUND
+
+//The directory containing a CMake configuration file for PASTIX.
+PASTIX_DIR:PATH=PASTIX_DIR-NOTFOUND
+
+//Path to a file.
+PASTIX_pastix_nompi.h_INCLUDE_DIRS:PATH=PASTIX_pastix_nompi.h_INCLUDE_DIRS-NOTFOUND
+
+//The directory relative to CMAKE_INSTALL_PREFIX where eigen3.pc
+// is installed
+PKGCONFIG_INSTALL_DIR:PATH=share/pkgconfig
+
+QT_QMAKE_EXECUTABLE:FILEPATH=NOTFOUND
+
+//Path to a library.
+RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.a
+
+//The directory containing a CMake configuration file for SuperLU.
+SuperLU_DIR:PATH=SuperLU_DIR-NOTFOUND
+
+//Path to a file.
+TVMET_INCLUDE_DIR:PATH=TVMET_INCLUDE_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Tensor.
+Tensor_DIR:PATH=Tensor_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for UMFPACK.
+UMFPACK_DIR:PATH=UMFPACK_DIR-NOTFOUND
 
 //Path to a file.
 X11_ICE_INCLUDE_PATH:PATH=/usr/include
@@ -459,6 +704,9 @@ X11_xkbfile_LIB:FILEPATH=X11_xkbfile_LIB-NOTFOUND
 //The directory containing a CMake configuration file for boost_headers.
 boost_headers_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0
 
+//The directory containing a CMake configuration file for boost_system.
+boost_system_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_system-1.74.0
+
 //The directory containing a CMake configuration file for boost_unit_test_framework.
 boost_unit_test_framework_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_unit_test_framework-1.74.0
 
@@ -467,6 +715,14 @@ boost_unit_test_framework_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_unit_te
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: ACML_LIBRARIES
+ACML_LIBRARIES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAZE_INCLUDE_DIR
+BLAZE_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLITZ_INCLUDES
+BLITZ_INCLUDES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLITZ_LIBRARIES
+BLITZ_LIBRARIES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_DIR
 Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
@@ -556,8 +812,40 @@ CMAKE_HAVE_SHMAT:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/shane/CXXVS/CXXVS
+//ADVANCED property for variable: CMAKE_INSTALL_BINDIR
+CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_DATADIR
+CMAKE_INSTALL_DATADIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_DATAROOTDIR
+CMAKE_INSTALL_DATAROOTDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_DOCDIR
+CMAKE_INSTALL_DOCDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_INCLUDEDIR
+CMAKE_INSTALL_INCLUDEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_INFODIR
+CMAKE_INSTALL_INFODIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LIBDIR
+CMAKE_INSTALL_LIBDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LIBEXECDIR
+CMAKE_INSTALL_LIBEXECDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LOCALEDIR
+CMAKE_INSTALL_LOCALEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LOCALSTATEDIR
+CMAKE_INSTALL_LOCALSTATEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_MANDIR
+CMAKE_INSTALL_MANDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_OLDINCLUDEDIR
+CMAKE_INSTALL_OLDINCLUDEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_RUNSTATEDIR
+CMAKE_INSTALL_RUNSTATEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_SBINDIR
+CMAKE_INSTALL_SBINDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_SHAREDSTATEDIR
+CMAKE_INSTALL_SHAREDSTATEDIR-ADVANCED:INTERNAL=1
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_SYSCONFDIR
+CMAKE_INSTALL_SYSCONFDIR-ADVANCED:INTERNAL=1
 //Have library ICE
 CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -577,7 +865,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -624,6 +912,16 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake][cfound components: unit_test_framework ][v1.74.0()]
 //Details about finding X11
 FIND_PACKAGE_MESSAGE_DETAILS_X11:INTERNAL=[/usr/include][/usr/lib/x86_64-linux-gnu/libX11.so][c ][v()]
+//ADVANCED property for variable: GMM_INCLUDE_DIR
+GMM_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MKL_LIBRARIES
+MKL_LIBRARIES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MTL4_INCLUDE_DIR
+MTL4_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENBLAS_LIBRARIES
+OPENBLAS_LIBRARIES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TVMET_INCLUDE_DIR
+TVMET_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_ICE_INCLUDE_PATH
 X11_ICE_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_ICE_LIB
@@ -780,8 +1078,12 @@ X11_xkbcommon_X11_LIB-ADVANCED:INTERNAL=1
 X11_xkbfile_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xkbfile_LIB
 X11_xkbfile_LIB-ADVANCED:INTERNAL=1
+//CMAKE_INSTALL_PREFIX during last run
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 //ADVANCED property for variable: boost_headers_DIR
 boost_headers_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_system_DIR
+boost_system_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_unit_test_framework_DIR
 boost_unit_test_framework_DIR-ADVANCED:INTERNAL=1
 

@@ -60,6 +60,14 @@ foreach(TEST_FILE ${TEST_SOURCES})
 endforeach()
 
 
+# Automatically add all subdirectories in 'libraries' folder
+file(GLOB ALL_LIBRARY_DIRS "${CMAKE_SOURCE_DIR}/libraries/*")
+foreach(LIB_DIR ${ALL_LIBRARY_DIRS})
+    if(IS_DIRECTORY ${LIB_DIR})
+        add_subdirectory(${LIB_DIR})
+    endif()
+endforeach()
+
 
 # Custom target to generate docs and UML after build
 add_custom_target(run_post_build

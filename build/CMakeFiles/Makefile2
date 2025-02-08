@@ -66,11 +66,13 @@ CMAKE_BINARY_DIR = /home/shane/CXXVS/CXXVS/build
 all: CMakeFiles/src_lib.dir/all
 all: libraries/all
 all: src/all
+all: libraries/eigen/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: libraries/preinstall
 preinstall: src/preinstall
+preinstall: libraries/eigen/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -78,6 +80,7 @@ clean: CMakeFiles/src_lib.dir/clean
 clean: CMakeFiles/run_post_build.dir/clean
 clean: libraries/clean
 clean: src/clean
+clean: libraries/eigen/clean
 .PHONY : clean
 
 #=============================================================================
@@ -94,6 +97,66 @@ libraries/preinstall:
 # Recursive "clean" directory target.
 libraries/clean:
 .PHONY : libraries/clean
+
+#=============================================================================
+# Directory level rules for directory libraries/eigen
+
+# Recursive "all" directory target.
+libraries/eigen/all: libraries/eigen/unsupported/all
+.PHONY : libraries/eigen/all
+
+# Recursive "preinstall" directory target.
+libraries/eigen/preinstall: libraries/eigen/unsupported/preinstall
+.PHONY : libraries/eigen/preinstall
+
+# Recursive "clean" directory target.
+libraries/eigen/clean: libraries/eigen/unsupported/clean
+.PHONY : libraries/eigen/clean
+
+#=============================================================================
+# Directory level rules for directory libraries/eigen/unsupported
+
+# Recursive "all" directory target.
+libraries/eigen/unsupported/all: libraries/eigen/unsupported/Eigen/all
+.PHONY : libraries/eigen/unsupported/all
+
+# Recursive "preinstall" directory target.
+libraries/eigen/unsupported/preinstall: libraries/eigen/unsupported/Eigen/preinstall
+.PHONY : libraries/eigen/unsupported/preinstall
+
+# Recursive "clean" directory target.
+libraries/eigen/unsupported/clean: libraries/eigen/unsupported/Eigen/clean
+.PHONY : libraries/eigen/unsupported/clean
+
+#=============================================================================
+# Directory level rules for directory libraries/eigen/unsupported/Eigen
+
+# Recursive "all" directory target.
+libraries/eigen/unsupported/Eigen/all: libraries/eigen/unsupported/Eigen/CXX11/all
+.PHONY : libraries/eigen/unsupported/Eigen/all
+
+# Recursive "preinstall" directory target.
+libraries/eigen/unsupported/Eigen/preinstall: libraries/eigen/unsupported/Eigen/CXX11/preinstall
+.PHONY : libraries/eigen/unsupported/Eigen/preinstall
+
+# Recursive "clean" directory target.
+libraries/eigen/unsupported/Eigen/clean: libraries/eigen/unsupported/Eigen/CXX11/clean
+.PHONY : libraries/eigen/unsupported/Eigen/clean
+
+#=============================================================================
+# Directory level rules for directory libraries/eigen/unsupported/Eigen/CXX11
+
+# Recursive "all" directory target.
+libraries/eigen/unsupported/Eigen/CXX11/all:
+.PHONY : libraries/eigen/unsupported/Eigen/CXX11/all
+
+# Recursive "preinstall" directory target.
+libraries/eigen/unsupported/Eigen/CXX11/preinstall:
+.PHONY : libraries/eigen/unsupported/Eigen/CXX11/preinstall
+
+# Recursive "clean" directory target.
+libraries/eigen/unsupported/Eigen/CXX11/clean:
+.PHONY : libraries/eigen/unsupported/Eigen/CXX11/clean
 
 #=============================================================================
 # Directory level rules for directory src

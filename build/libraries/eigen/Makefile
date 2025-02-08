@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shane/CXXVS/CXXVS/build/CMakeFiles /home/shane/CXXVS/CXXVS/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/shane/CXXVS/CXXVS/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/shane/CXXVS/CXXVS/build/CMakeFiles /home/shane/CXXVS/CXXVS/build/libraries/eigen//CMakeFiles/progress.marks
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/eigen/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shane/CXXVS/CXXVS/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/eigen/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,81 +158,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/eigen/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/eigen/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/shane/CXXVS/CXXVS/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named src_lib
-
-# Build rule for target.
-src_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src_lib
-.PHONY : src_lib
-
-# fast build rule for target.
-src_lib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/build
-.PHONY : src_lib/fast
-
-#=============================================================================
-# Target rules for targets named run_post_build
-
-# Build rule for target.
-run_post_build: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_post_build
-.PHONY : run_post_build
-
-# fast build rule for target.
-run_post_build/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_post_build.dir/build.make CMakeFiles/run_post_build.dir/build
-.PHONY : run_post_build/fast
-
-#=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -247,12 +184,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... run_post_build"
-	@echo "... main"
-	@echo "... src_lib"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
 .PHONY : help
 
 
@@ -264,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/shane/CXXVS/CXXVS/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

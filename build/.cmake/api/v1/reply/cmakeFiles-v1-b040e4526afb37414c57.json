@@ -210,6 +210,28 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"path" : "libraries/eigen/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "libraries/eigen/unsupported/CMakeLists.txt"
+		},
+		{
+			"path" : "libraries/eigen/unsupported/Eigen/CMakeLists.txt"
+		},
+		{
+			"path" : "libraries/eigen/unsupported/Eigen/CXX11/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
