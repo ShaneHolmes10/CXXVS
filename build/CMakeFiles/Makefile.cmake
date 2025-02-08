@@ -63,6 +63,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/src_lib.dir/DependInfo.cmake"
+  "CMakeFiles/Jerry_test.dir/DependInfo.cmake"
+  "CMakeFiles/example.dir/DependInfo.cmake"
+  "CMakeFiles/new_test.dir/DependInfo.cmake"
   "CMakeFiles/run_post_build.dir/DependInfo.cmake"
   "src/CMakeFiles/main.dir/DependInfo.cmake"
   )

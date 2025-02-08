@@ -69,10 +69,66 @@ include src/CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/main.dir/flags.make
 
+src/CMakeFiles/main.dir/Jerry.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/Jerry.cpp.o: ../src/Jerry.cpp
+src/CMakeFiles/main.dir/Jerry.cpp.o: src/CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/main.dir/Jerry.cpp.o"
+	cd /home/shane/CXXVS/CXXVS/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/main.dir/Jerry.cpp.o -MF CMakeFiles/main.dir/Jerry.cpp.o.d -o CMakeFiles/main.dir/Jerry.cpp.o -c /home/shane/CXXVS/CXXVS/src/Jerry.cpp
+
+src/CMakeFiles/main.dir/Jerry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Jerry.cpp.i"
+	cd /home/shane/CXXVS/CXXVS/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/Jerry.cpp > CMakeFiles/main.dir/Jerry.cpp.i
+
+src/CMakeFiles/main.dir/Jerry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Jerry.cpp.s"
+	cd /home/shane/CXXVS/CXXVS/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/Jerry.cpp -o CMakeFiles/main.dir/Jerry.cpp.s
+
+src/CMakeFiles/main.dir/John.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/John.cpp.o: ../src/John.cpp
+src/CMakeFiles/main.dir/John.cpp.o: src/CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/main.dir/John.cpp.o"
+	cd /home/shane/CXXVS/CXXVS/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/main.dir/John.cpp.o -MF CMakeFiles/main.dir/John.cpp.o.d -o CMakeFiles/main.dir/John.cpp.o -c /home/shane/CXXVS/CXXVS/src/John.cpp
+
+src/CMakeFiles/main.dir/John.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/John.cpp.i"
+	cd /home/shane/CXXVS/CXXVS/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/John.cpp > CMakeFiles/main.dir/John.cpp.i
+
+src/CMakeFiles/main.dir/John.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/John.cpp.s"
+	cd /home/shane/CXXVS/CXXVS/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/John.cpp -o CMakeFiles/main.dir/John.cpp.s
+
+src/CMakeFiles/main.dir/Person.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/Person.cpp.o: ../src/Person.cpp
+src/CMakeFiles/main.dir/Person.cpp.o: src/CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/main.dir/Person.cpp.o"
+	cd /home/shane/CXXVS/CXXVS/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/main.dir/Person.cpp.o -MF CMakeFiles/main.dir/Person.cpp.o.d -o CMakeFiles/main.dir/Person.cpp.o -c /home/shane/CXXVS/CXXVS/src/Person.cpp
+
+src/CMakeFiles/main.dir/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Person.cpp.i"
+	cd /home/shane/CXXVS/CXXVS/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/Person.cpp > CMakeFiles/main.dir/Person.cpp.i
+
+src/CMakeFiles/main.dir/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Person.cpp.s"
+	cd /home/shane/CXXVS/CXXVS/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/Person.cpp -o CMakeFiles/main.dir/Person.cpp.s
+
+src/CMakeFiles/main.dir/controller/PersonController.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/controller/PersonController.cpp.o: ../src/controller/PersonController.cpp
+src/CMakeFiles/main.dir/controller/PersonController.cpp.o: src/CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/main.dir/controller/PersonController.cpp.o"
+	cd /home/shane/CXXVS/CXXVS/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/main.dir/controller/PersonController.cpp.o -MF CMakeFiles/main.dir/controller/PersonController.cpp.o.d -o CMakeFiles/main.dir/controller/PersonController.cpp.o -c /home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp
+
+src/CMakeFiles/main.dir/controller/PersonController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/controller/PersonController.cpp.i"
+	cd /home/shane/CXXVS/CXXVS/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp > CMakeFiles/main.dir/controller/PersonController.cpp.i
+
+src/CMakeFiles/main.dir/controller/PersonController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/controller/PersonController.cpp.s"
+	cd /home/shane/CXXVS/CXXVS/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp -o CMakeFiles/main.dir/controller/PersonController.cpp.s
+
 src/CMakeFiles/main.dir/main.cpp.o: src/CMakeFiles/main.dir/flags.make
 src/CMakeFiles/main.dir/main.cpp.o: ../src/main.cpp
 src/CMakeFiles/main.dir/main.cpp.o: src/CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/main.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/main.dir/main.cpp.o"
 	cd /home/shane/CXXVS/CXXVS/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c /home/shane/CXXVS/CXXVS/src/main.cpp
 
 src/CMakeFiles/main.dir/main.cpp.i: cmake_force
@@ -85,11 +141,19 @@ src/CMakeFiles/main.dir/main.cpp.s: cmake_force
 
 # Object files for target main
 main_OBJECTS = \
+"CMakeFiles/main.dir/Jerry.cpp.o" \
+"CMakeFiles/main.dir/John.cpp.o" \
+"CMakeFiles/main.dir/Person.cpp.o" \
+"CMakeFiles/main.dir/controller/PersonController.cpp.o" \
 "CMakeFiles/main.dir/main.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
+bin/main: src/CMakeFiles/main.dir/Jerry.cpp.o
+bin/main: src/CMakeFiles/main.dir/John.cpp.o
+bin/main: src/CMakeFiles/main.dir/Person.cpp.o
+bin/main: src/CMakeFiles/main.dir/controller/PersonController.cpp.o
 bin/main: src/CMakeFiles/main.dir/main.cpp.o
 bin/main: src/CMakeFiles/main.dir/build.make
 bin/main: /usr/lib/x86_64-linux-gnu/libSM.so
@@ -97,7 +161,7 @@ bin/main: /usr/lib/x86_64-linux-gnu/libICE.so
 bin/main: /usr/lib/x86_64-linux-gnu/libX11.so
 bin/main: /usr/lib/x86_64-linux-gnu/libXext.so
 bin/main: src/CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shane/CXXVS/CXXVS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/main"
 	cd /home/shane/CXXVS/CXXVS/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,9 +1,14 @@
 #include <iostream>
+#include "John.hpp"
 
+int main()
+{
 
-int main() {
+    John *j = new John();
 
-    std::cout << "Hello World" << std::endl;
+    j->setHollar(5);
+
+    j->Hollar();
 
     return 0;
 }

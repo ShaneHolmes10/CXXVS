@@ -1,4 +1,7 @@
 /home/shane/CXXVS/CXXVS/build/CMakeFiles/src_lib.dir
+/home/shane/CXXVS/CXXVS/build/CMakeFiles/Jerry_test.dir
+/home/shane/CXXVS/CXXVS/build/CMakeFiles/example.dir
+/home/shane/CXXVS/CXXVS/build/CMakeFiles/new_test.dir
 /home/shane/CXXVS/CXXVS/build/CMakeFiles/run_post_build.dir
 /home/shane/CXXVS/CXXVS/build/CMakeFiles/test.dir
 /home/shane/CXXVS/CXXVS/build/CMakeFiles/edit_cache.dir

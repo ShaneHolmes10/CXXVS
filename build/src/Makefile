@@ -140,6 +140,102 @@ main/fast:
 	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+Jerry.o: Jerry.cpp.o
+.PHONY : Jerry.o
+
+# target to build an object file
+Jerry.cpp.o:
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Jerry.cpp.o
+.PHONY : Jerry.cpp.o
+
+Jerry.i: Jerry.cpp.i
+.PHONY : Jerry.i
+
+# target to preprocess a source file
+Jerry.cpp.i:
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Jerry.cpp.i
+.PHONY : Jerry.cpp.i
+
+Jerry.s: Jerry.cpp.s
+.PHONY : Jerry.s
+
+# target to generate assembly for a file
+Jerry.cpp.s:
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Jerry.cpp.s
+.PHONY : Jerry.cpp.s
+
+John.o: John.cpp.o
+.PHONY : John.o
+
+# target to build an object file
+John.cpp.o:
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/John.cpp.o
+.PHONY : John.cpp.o
+
+John.i: John.cpp.i
+.PHONY : John.i
+
+# target to preprocess a source file
+John.cpp.i:
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/John.cpp.i
+.PHONY : John.cpp.i
+
+John.s: John.cpp.s
+.PHONY : John.s
+
+# target to generate assembly for a file
+John.cpp.s:
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/John.cpp.s
+.PHONY : John.cpp.s
+
+Person.o: Person.cpp.o
+.PHONY : Person.o
+
+# target to build an object file
+Person.cpp.o:
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Person.cpp.o
+.PHONY : Person.cpp.o
+
+Person.i: Person.cpp.i
+.PHONY : Person.i
+
+# target to preprocess a source file
+Person.cpp.i:
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Person.cpp.i
+.PHONY : Person.cpp.i
+
+Person.s: Person.cpp.s
+.PHONY : Person.s
+
+# target to generate assembly for a file
+Person.cpp.s:
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Person.cpp.s
+.PHONY : Person.cpp.s
+
+controller/PersonController.o: controller/PersonController.cpp.o
+.PHONY : controller/PersonController.o
+
+# target to build an object file
+controller/PersonController.cpp.o:
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/controller/PersonController.cpp.o
+.PHONY : controller/PersonController.cpp.o
+
+controller/PersonController.i: controller/PersonController.cpp.i
+.PHONY : controller/PersonController.i
+
+# target to preprocess a source file
+controller/PersonController.cpp.i:
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/controller/PersonController.cpp.i
+.PHONY : controller/PersonController.cpp.i
+
+controller/PersonController.s: controller/PersonController.cpp.s
+.PHONY : controller/PersonController.s
+
+# target to generate assembly for a file
+controller/PersonController.cpp.s:
+	cd /home/shane/CXXVS/CXXVS/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/controller/PersonController.cpp.s
+.PHONY : controller/PersonController.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -174,6 +270,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... main"
+	@echo "... Jerry.o"
+	@echo "... Jerry.i"
+	@echo "... Jerry.s"
+	@echo "... John.o"
+	@echo "... John.i"
+	@echo "... John.s"
+	@echo "... Person.o"
+	@echo "... Person.i"
+	@echo "... Person.s"
+	@echo "... controller/PersonController.o"
+	@echo "... controller/PersonController.i"
+	@echo "... controller/PersonController.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

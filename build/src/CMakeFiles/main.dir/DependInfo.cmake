@@ -8,6 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/shane/CXXVS/CXXVS/src/Jerry.cpp" "src/CMakeFiles/main.dir/Jerry.cpp.o" "gcc" "src/CMakeFiles/main.dir/Jerry.cpp.o.d"
+  "/home/shane/CXXVS/CXXVS/src/John.cpp" "src/CMakeFiles/main.dir/John.cpp.o" "gcc" "src/CMakeFiles/main.dir/John.cpp.o.d"
+  "/home/shane/CXXVS/CXXVS/src/Person.cpp" "src/CMakeFiles/main.dir/Person.cpp.o" "gcc" "src/CMakeFiles/main.dir/Person.cpp.o.d"
+  "/home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp" "src/CMakeFiles/main.dir/controller/PersonController.cpp.o" "gcc" "src/CMakeFiles/main.dir/controller/PersonController.cpp.o.d"
   "/home/shane/CXXVS/CXXVS/src/main.cpp" "src/CMakeFiles/main.dir/main.cpp.o" "gcc" "src/CMakeFiles/main.dir/main.cpp.o.d"
   )
 

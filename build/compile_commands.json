@@ -1,8 +1,63 @@
 [
 {
   "directory": "/home/shane/CXXVS/CXXVS/build",
+  "command": "/usr/bin/g++  -I/home/shane/CXXVS/CXXVS/src -g -std=gnu++17 -o CMakeFiles/src_lib.dir/src/Jerry.cpp.o -c /home/shane/CXXVS/CXXVS/src/Jerry.cpp",
+  "file": "/home/shane/CXXVS/CXXVS/src/Jerry.cpp"
+},
+{
+  "directory": "/home/shane/CXXVS/CXXVS/build",
+  "command": "/usr/bin/g++  -I/home/shane/CXXVS/CXXVS/src -g -std=gnu++17 -o CMakeFiles/src_lib.dir/src/John.cpp.o -c /home/shane/CXXVS/CXXVS/src/John.cpp",
+  "file": "/home/shane/CXXVS/CXXVS/src/John.cpp"
+},
+{
+  "directory": "/home/shane/CXXVS/CXXVS/build",
+  "command": "/usr/bin/g++  -I/home/shane/CXXVS/CXXVS/src -g -std=gnu++17 -o CMakeFiles/src_lib.dir/src/Person.cpp.o -c /home/shane/CXXVS/CXXVS/src/Person.cpp",
+  "file": "/home/shane/CXXVS/CXXVS/src/Person.cpp"
+},
+{
+  "directory": "/home/shane/CXXVS/CXXVS/build",
+  "command": "/usr/bin/g++  -I/home/shane/CXXVS/CXXVS/src -g -std=gnu++17 -o CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.o -c /home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp",
+  "file": "/home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp"
+},
+{
+  "directory": "/home/shane/CXXVS/CXXVS/build",
   "command": "/usr/bin/g++  -I/home/shane/CXXVS/CXXVS/src -g -std=gnu++17 -o CMakeFiles/src_lib.dir/src/main.cpp.o -c /home/shane/CXXVS/CXXVS/src/main.cpp",
   "file": "/home/shane/CXXVS/CXXVS/src/main.cpp"
+},
+{
+  "directory": "/home/shane/CXXVS/CXXVS/build",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/shane/CXXVS/CXXVS/src -g -std=gnu++17 -o CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.o -c /home/shane/CXXVS/CXXVS/test/Jerry_test.cpp",
+  "file": "/home/shane/CXXVS/CXXVS/test/Jerry_test.cpp"
+},
+{
+  "directory": "/home/shane/CXXVS/CXXVS/build",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/shane/CXXVS/CXXVS/src -g -std=gnu++17 -o CMakeFiles/example.dir/test/example.cpp.o -c /home/shane/CXXVS/CXXVS/test/example.cpp",
+  "file": "/home/shane/CXXVS/CXXVS/test/example.cpp"
+},
+{
+  "directory": "/home/shane/CXXVS/CXXVS/build",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/shane/CXXVS/CXXVS/src -g -std=gnu++17 -o CMakeFiles/new_test.dir/test/new_test.cpp.o -c /home/shane/CXXVS/CXXVS/test/new_test.cpp",
+  "file": "/home/shane/CXXVS/CXXVS/test/new_test.cpp"
+},
+{
+  "directory": "/home/shane/CXXVS/CXXVS/build/src",
+  "command": "/usr/bin/g++  -I/home/shane/CXXVS/CXXVS/src -I/home/shane/CXXVS/CXXVS/src/../libraries -g -std=gnu++17 -o CMakeFiles/main.dir/Jerry.cpp.o -c /home/shane/CXXVS/CXXVS/src/Jerry.cpp",
+  "file": "/home/shane/CXXVS/CXXVS/src/Jerry.cpp"
+},
+{
+  "directory": "/home/shane/CXXVS/CXXVS/build/src",
+  "command": "/usr/bin/g++  -I/home/shane/CXXVS/CXXVS/src -I/home/shane/CXXVS/CXXVS/src/../libraries -g -std=gnu++17 -o CMakeFiles/main.dir/John.cpp.o -c /home/shane/CXXVS/CXXVS/src/John.cpp",
+  "file": "/home/shane/CXXVS/CXXVS/src/John.cpp"
+},
+{
+  "directory": "/home/shane/CXXVS/CXXVS/build/src",
+  "command": "/usr/bin/g++  -I/home/shane/CXXVS/CXXVS/src -I/home/shane/CXXVS/CXXVS/src/../libraries -g -std=gnu++17 -o CMakeFiles/main.dir/Person.cpp.o -c /home/shane/CXXVS/CXXVS/src/Person.cpp",
+  "file": "/home/shane/CXXVS/CXXVS/src/Person.cpp"
+},
+{
+  "directory": "/home/shane/CXXVS/CXXVS/build/src",
+  "command": "/usr/bin/g++  -I/home/shane/CXXVS/CXXVS/src -I/home/shane/CXXVS/CXXVS/src/../libraries -g -std=gnu++17 -o CMakeFiles/main.dir/controller/PersonController.cpp.o -c /home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp",
+  "file": "/home/shane/CXXVS/CXXVS/src/controller/PersonController.cpp"
 },
 {
   "directory": "/home/shane/CXXVS/CXXVS/build/src",

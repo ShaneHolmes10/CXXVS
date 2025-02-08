@@ -20,8 +20,11 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
+						0,
 						1,
-						2
+						3,
+						4,
+						5
 					]
 				},
 				{
@@ -47,7 +50,7 @@
 					"source" : "src",
 					"targetIndexes" : 
 					[
-						0
+						2
 					]
 				}
 			],
@@ -66,17 +69,41 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4,
+						5
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 0,
+					"id" : "Jerry_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Jerry_test-Debug-0f7596f3f9e7b3bdb9e1.json",
+					"name" : "Jerry_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example-Debug-5699fd380cb74b294d67.json",
+					"name" : "example",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "main::@145eef247bfb46b6828c",
-					"jsonFile" : "target-main-Debug-3f43a3d3b5e07af420b1.json",
+					"jsonFile" : "target-main-Debug-f258ec16d3929ec52d31.json",
 					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "new_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_test-Debug-c68c2922f617d575e709.json",
+					"name" : "new_test",
 					"projectIndex" : 0
 				},
 				{
@@ -89,7 +116,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "src_lib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-src_lib-Debug-0e6c01551cf49cf5eb9b.json",
+					"jsonFile" : "target-src_lib-Debug-c2a6f8b306a3a3dd96bd.json",
 					"name" : "src_lib",
 					"projectIndex" : 0
 				}

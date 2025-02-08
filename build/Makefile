@@ -140,6 +140,45 @@ src_lib/fast:
 .PHONY : src_lib/fast
 
 #=============================================================================
+# Target rules for targets named Jerry_test
+
+# Build rule for target.
+Jerry_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Jerry_test
+.PHONY : Jerry_test
+
+# fast build rule for target.
+Jerry_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Jerry_test.dir/build.make CMakeFiles/Jerry_test.dir/build
+.PHONY : Jerry_test/fast
+
+#=============================================================================
+# Target rules for targets named example
+
+# Build rule for target.
+example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example
+.PHONY : example
+
+# fast build rule for target.
+example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
+.PHONY : example/fast
+
+#=============================================================================
+# Target rules for targets named new_test
+
+# Build rule for target.
+new_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 new_test
+.PHONY : new_test
+
+# fast build rule for target.
+new_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_test.dir/build.make CMakeFiles/new_test.dir/build
+.PHONY : new_test/fast
+
+#=============================================================================
 # Target rules for targets named run_post_build
 
 # Build rule for target.
@@ -165,6 +204,102 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/Jerry.o: src/Jerry.cpp.o
+.PHONY : src/Jerry.o
+
+# target to build an object file
+src/Jerry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/Jerry.cpp.o
+.PHONY : src/Jerry.cpp.o
+
+src/Jerry.i: src/Jerry.cpp.i
+.PHONY : src/Jerry.i
+
+# target to preprocess a source file
+src/Jerry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/Jerry.cpp.i
+.PHONY : src/Jerry.cpp.i
+
+src/Jerry.s: src/Jerry.cpp.s
+.PHONY : src/Jerry.s
+
+# target to generate assembly for a file
+src/Jerry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/Jerry.cpp.s
+.PHONY : src/Jerry.cpp.s
+
+src/John.o: src/John.cpp.o
+.PHONY : src/John.o
+
+# target to build an object file
+src/John.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/John.cpp.o
+.PHONY : src/John.cpp.o
+
+src/John.i: src/John.cpp.i
+.PHONY : src/John.i
+
+# target to preprocess a source file
+src/John.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/John.cpp.i
+.PHONY : src/John.cpp.i
+
+src/John.s: src/John.cpp.s
+.PHONY : src/John.s
+
+# target to generate assembly for a file
+src/John.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/John.cpp.s
+.PHONY : src/John.cpp.s
+
+src/Person.o: src/Person.cpp.o
+.PHONY : src/Person.o
+
+# target to build an object file
+src/Person.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/Person.cpp.o
+.PHONY : src/Person.cpp.o
+
+src/Person.i: src/Person.cpp.i
+.PHONY : src/Person.i
+
+# target to preprocess a source file
+src/Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/Person.cpp.i
+.PHONY : src/Person.cpp.i
+
+src/Person.s: src/Person.cpp.s
+.PHONY : src/Person.s
+
+# target to generate assembly for a file
+src/Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/Person.cpp.s
+.PHONY : src/Person.cpp.s
+
+src/controller/PersonController.o: src/controller/PersonController.cpp.o
+.PHONY : src/controller/PersonController.o
+
+# target to build an object file
+src/controller/PersonController.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.o
+.PHONY : src/controller/PersonController.cpp.o
+
+src/controller/PersonController.i: src/controller/PersonController.cpp.i
+.PHONY : src/controller/PersonController.i
+
+# target to preprocess a source file
+src/controller/PersonController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.i
+.PHONY : src/controller/PersonController.cpp.i
+
+src/controller/PersonController.s: src/controller/PersonController.cpp.s
+.PHONY : src/controller/PersonController.s
+
+# target to generate assembly for a file
+src/controller/PersonController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/controller/PersonController.cpp.s
+.PHONY : src/controller/PersonController.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -189,6 +324,78 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/src_lib.dir/build.make CMakeFiles/src_lib.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+test/Jerry_test.o: test/Jerry_test.cpp.o
+.PHONY : test/Jerry_test.o
+
+# target to build an object file
+test/Jerry_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Jerry_test.dir/build.make CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.o
+.PHONY : test/Jerry_test.cpp.o
+
+test/Jerry_test.i: test/Jerry_test.cpp.i
+.PHONY : test/Jerry_test.i
+
+# target to preprocess a source file
+test/Jerry_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Jerry_test.dir/build.make CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.i
+.PHONY : test/Jerry_test.cpp.i
+
+test/Jerry_test.s: test/Jerry_test.cpp.s
+.PHONY : test/Jerry_test.s
+
+# target to generate assembly for a file
+test/Jerry_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Jerry_test.dir/build.make CMakeFiles/Jerry_test.dir/test/Jerry_test.cpp.s
+.PHONY : test/Jerry_test.cpp.s
+
+test/example.o: test/example.cpp.o
+.PHONY : test/example.o
+
+# target to build an object file
+test/example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/test/example.cpp.o
+.PHONY : test/example.cpp.o
+
+test/example.i: test/example.cpp.i
+.PHONY : test/example.i
+
+# target to preprocess a source file
+test/example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/test/example.cpp.i
+.PHONY : test/example.cpp.i
+
+test/example.s: test/example.cpp.s
+.PHONY : test/example.s
+
+# target to generate assembly for a file
+test/example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/test/example.cpp.s
+.PHONY : test/example.cpp.s
+
+test/new_test.o: test/new_test.cpp.o
+.PHONY : test/new_test.o
+
+# target to build an object file
+test/new_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_test.dir/build.make CMakeFiles/new_test.dir/test/new_test.cpp.o
+.PHONY : test/new_test.cpp.o
+
+test/new_test.i: test/new_test.cpp.i
+.PHONY : test/new_test.i
+
+# target to preprocess a source file
+test/new_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_test.dir/build.make CMakeFiles/new_test.dir/test/new_test.cpp.i
+.PHONY : test/new_test.cpp.i
+
+test/new_test.s: test/new_test.cpp.s
+.PHONY : test/new_test.s
+
+# target to generate assembly for a file
+test/new_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_test.dir/build.make CMakeFiles/new_test.dir/test/new_test.cpp.s
+.PHONY : test/new_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -199,11 +406,35 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... run_post_build"
+	@echo "... Jerry_test"
+	@echo "... example"
 	@echo "... main"
+	@echo "... new_test"
 	@echo "... src_lib"
+	@echo "... src/Jerry.o"
+	@echo "... src/Jerry.i"
+	@echo "... src/Jerry.s"
+	@echo "... src/John.o"
+	@echo "... src/John.i"
+	@echo "... src/John.s"
+	@echo "... src/Person.o"
+	@echo "... src/Person.i"
+	@echo "... src/Person.s"
+	@echo "... src/controller/PersonController.o"
+	@echo "... src/controller/PersonController.i"
+	@echo "... src/controller/PersonController.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... test/Jerry_test.o"
+	@echo "... test/Jerry_test.i"
+	@echo "... test/Jerry_test.s"
+	@echo "... test/example.o"
+	@echo "... test/example.i"
+	@echo "... test/example.s"
+	@echo "... test/new_test.o"
+	@echo "... test/new_test.i"
+	@echo "... test/new_test.s"
 .PHONY : help
 
 

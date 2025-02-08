@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/example.dir/test/example.cpp.o -o bin/example  /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0 libsrc_lib.a 
