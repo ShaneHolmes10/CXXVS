@@ -25,6 +25,16 @@ The executable will be located in the build/bin folder. If your working director
 ./build/bin/main
 ```
 
+### Tests
+
+To run tests you should have the testing extenstion installed.
+
+When you add tests to the test folder reload the vscode editor and then navigate to the testing menu.
+
+You should see your tests there and ready to run.
+
+See the example branch to get an idea of what the tests would need to be in the form of.
+
 ### Make Commands
 
 #### hardclean
